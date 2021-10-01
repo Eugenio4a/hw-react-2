@@ -71,7 +71,7 @@ function Film() {
 function Me() {
   return (
     <>
-      <AboutMe
+      <AboutMe 
         fio="Yamnenko Yevhenii" 
         phone="80808080808"
         email="aaa@aaa.com"
