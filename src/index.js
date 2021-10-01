@@ -90,7 +90,7 @@ function Time() {
   setInterval(() => setState(new Date()), 1000);
   return (
     <>
-      <div className="time">{state.toLocaleTimeString()}</div>
+      <div className="time">{state.toLocaleTimeString()}</div> 
     </>
   );
 }
