@@ -72,7 +72,7 @@ function Me() {
   return (
     <>
       <AboutMe 
-        fio="Yamnenko Yevhenii" 
+        fio="Yamnenko Yevhenii"  
         phone="80808080808"
         email="aaa@aaa.com"
         town="Kiev"
