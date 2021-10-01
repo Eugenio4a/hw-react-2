@@ -6,7 +6,29 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.myBlock{
+  background-color: rgb(152, 246, 152) !important;
+}
+.container,.myBlock{
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(255, 173, 173);
+  padding: 20px;
+}
+.bold_text{
+  font-weight: 900;
+}
 
+.container>div,.myBlock>div{
+ display: flex;
+ flex-direction: column;
+  justify-content: center;
+}
+.time{
+  text-align: center;
+  font-weight: 900;
+  font-size: 60px;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
